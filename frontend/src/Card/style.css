@@ -1,0 +1,21 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.delete{
+    border: none;
+    background: rgb(255, 105, 85);
+    color: #fff;
+    padding: .80rem;
+}

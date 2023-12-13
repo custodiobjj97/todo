@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.form-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 6px;
+  gap: 25px;
+}
+
+input{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 7px;
+  border: #bf5 3px solid;
+  outline: none;
+}
+
+button{
+  padding: .80rem 3rem;
+  background: rgb(102, 173, 255);
+  color:#fff;
+ border: none;
+}
